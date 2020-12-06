@@ -38,6 +38,14 @@ Si añadieron un archivo que no querian con "git add <archivo>" y se olvidaron d
 funciona igual al poner git restore --staged <archivo>
 el "ctrl" + "Z" de git
 
+* git remote add origin https://github.com/JeanLanma/simple-template-v1.git (este es el repositorio remoto de este proyecto)
+
+Creando tu repo en github obtienes la dirección para agregar un origen remoto
+que es donde se guardara tu proyecto y todos los archivos en un repo remoto
+
+* git push -u origin main
+Subir el proyecto al repositorio de github antes agregado
+(recuerda ingresar tu cuenta y password de github si te lo pide)
 
 
 
