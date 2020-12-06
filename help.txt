@@ -1,0 +1,44 @@
+Comandos para trabajar con git
+
+COMANDOS BASICOS 
+* git init Oye Git, voy a usar estos documentos contigo ok?
+* git add <file> Pasa los files a staging area 
+* git add . Pasa todos los files
+* git commit Pasa los files de staging area a repository (Después de esto se te va a abrir el editor de código VIM en donde tendrás que escribir un comentario, si te quieres evitar abrir VIM entonces utiliza los siguientes comandos:)
+* git commit -m "comment" Lo mismo que el commit regular, pero ahora no necesitas entrar a VIM
+* git status Ver en que status (wd, sa, r) están los files
+* git push Subir los files a un server (Github)
+* git pull  Traer los files de un server, traer los cambios de tus compañeros
+* git clone Hacerte una copia de lo que está en el server a tu PC
+* git checkout -- <file> Para revertir los cambios de los archivos
+* git diff <file> Para ver las diferencias hechas en los archivos
+* git branch Ver las ramas que hay ("master" es la rama default)
+* git branch "nombre" Crear una nueva rama
+* git checkout "nombre" Ir a una rama en especifico 
+
+* Git chekout –b nombre de la rama: nos permite crear una nueva rama y cambiar de rama  a la misma vez con un solo comando
+* Git branch –m nombreActualDeLaRama NombreNuevaDeLaRama: para cambiar el nombre de la rama
+* Git branch –d NombreDeLaRamaQueQuieroEliminar: eliminar rama
+
+
+*  git config -- global user.email "email" Para configurar email del usuario
+*  git config -- global user.name "nombre" Para configurar nombre del usuario
+
+
+vim Es el editor de código de git desde la consola, ahí escribes un comentario para la nueva versión que estés versionando (si no te deja escribir presiona a letra i). Cuando termines presiona esc y luego :wq (write & quit)pasa salir.
+
+.gitignore Es un archivo reservado de git que tenemos que crear si queremos decirle a git los archivos que no vamos a utilizar y así decida ignorarlos.
+Escribe dentro de el archivo .gitignore los nombres de los archivos que desees ignorar.
+Nota: Las carpetas se escriben solas y los archivos con su terminación.
+
+* git reset <archivo>
+* git restore --staged <archivo>
+
+Si añadieron un archivo que no querian con "git add <archivo>" y se olvidaron de colocarlo en  ".gitignore" (Antes de hacer un commit) utilicen "git reset <archivo>" que seria lo inverso a "git add <archivo>".
+funciona igual al poner git restore --staged <archivo>
+el "ctrl" + "Z" de git
+
+
+
+
+
