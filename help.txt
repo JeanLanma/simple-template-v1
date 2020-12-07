@@ -43,7 +43,7 @@ el "ctrl" + "Z" de git
 Creando tu repo en github obtienes la dirección para agregar un origen remoto
 que es donde se guardara tu proyecto y todos los archivos en un repo remoto
 
-* git push -u origin main
+* git push -u origin master
 Subir el proyecto al repositorio de github antes agregado
 (recuerda ingresar tu cuenta y password de github si te lo pide)
 
